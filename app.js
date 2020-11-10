@@ -77,6 +77,9 @@ const app = Vue.createApp({
       this.monsterHealth = 100;
       this.winner = "";
     },
+    surrender() {
+      this.winner = "monster";
+    },
   },
 });
 
